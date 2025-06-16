@@ -27,6 +27,9 @@ https://colab.research.google.com/drive/11E8rps0ObHdVwaHkEPYWCtsVqWus9lMS
 https://drive.google.com/drive/folders/1MZdlmYTMGzUTm8tYYAEqryO_tPpWbGX5?usp=sharing
 
 ## 4.Run the fastapi
+python app.py
+
+#### Test the api
 $ curl -v -X POST http://127.0.0.1:8000/transcribe/ \
 >   -F "file=@filepath"
 
